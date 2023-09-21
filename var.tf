@@ -1,5 +1,5 @@
 variable "region" {
-  default     = "us-west-1"
+  default     = "us-east-1"
   description = "AWS region"
 }
 variable "access_key" {
