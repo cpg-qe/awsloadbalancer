@@ -4,15 +4,6 @@ provider "aws" {
   secret_key = var.secret_key
 }
 
-variable "region" {
-  default     = "us-west-1"
-  description = "AWS region"
-}
-variable "access_key" {
-}
-
-variable "secret_key" {
-}
 variable "deploymentID" {
   type    = string
   description = "Deployment ID for the ELB"
