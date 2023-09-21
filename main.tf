@@ -61,7 +61,7 @@ resource "aws_alb" "example" {
   }
 }
 
-<--resource "aws_alb_listener" "example_listener" {
+<!--resource "aws_alb_listener" "example_listener" {
   load_balancer_arn = aws_alb.example.arn
   port              = 80
   protocol          = "HTTP"
